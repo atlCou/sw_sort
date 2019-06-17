@@ -23,7 +23,8 @@ dataSet[dataSetVersion].options = [
   {
     name: "Remove Lolis",
     key: "loli",
-    tooltip: "Check this to remove the smol characters."
+    tooltip: "Check this to remove the smol characters.",
+	checked: false
   }
 
 ];
