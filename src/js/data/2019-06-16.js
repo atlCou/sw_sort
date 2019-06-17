@@ -114,89 +114,233 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       series: ["501"]
     }
-  },
+  }
   //
   
   // 502nd:
   
   //
-  /*
+ 
   {
     name: "Gundula Rall",
-    img: "gundulaimage",
+    img: "88O7498.png",
     opts: {
       series: ["502"]
     }
   },
   {
     name: "Aleksandra I. Pokryshkin",
-    img: "sashaimage",
+    img: "ITZTyOR.png",
     opts: {
       series: ["502"]
     }
   },
   {
     name: "Waltrud Krupinski",
-    img: "krupiimage",
+    img: "Ex8FrR5.png",
     opts: {
       series: ["502"]
     }
   },
   {
     name: "Georgette Lemare",
-    img: "georgetteimage",
+    img: "Ad4TOLe.png",
     opts: {
       series: ["502"]
     }
   },
   {
     name: "Kanno Naoe",
-    img: "georgetteimage",
+    img: "7aVB65t.png",
     opts: {
       series: ["502"]
     }
   },
   {
     name: "Shimohara Sadako",
-    img: "sadokoimage",
+    img: "pB61QhG.png",
     opts: {
       series: ["502"]
     }
   },
   {
     name: "Edytha Rossmann",
-    img: "rossmanimage",
+    img: "MRQJ1wQ.png",
     opts: {
       series: ["502"]
     }
   },
   {
     name: "Nikka Edvardine Katajainen",
-    img: "nipaimage",
+    img: "i1tZU17.png",
     opts: {
       series: ["502"]
     }
   },
   {
     name: "Karibuchi Hikari",
-    img: "hikariimage",
+    img: "iPubFFv.png",
     opts: {
       series: ["502"]
     }
   },
   {
     name: "Karibuchi Takami",
-    img: "takamiimage",
+    img: "yvgs61q.png",
     opts: {
       series: ["502"]
     }
   },
-  */
+  
   //
   
   // 503rd:
   
   //
+  {
+    name: "Bronislava F. Safonov",
+    img: "s7nhpLJ.png",
+    opts: {
+      series: ["503"]
+    }
+  },
+  {
+    name: "Huberta von Bonin",
+    img: "yMLqaKZ.png",
+    opts: {
+      series: ["503"]
+    }
+  },
+  {
+    name: "Waltraud Nowotny",
+    img: "cc6p6Tu.png",
+    opts: {
+      series: ["503"]
+    }
+  },
+  {
+    name: "Galina D. Kostilev",
+    img: "4OG6hbx.png",
+    opts: {
+      series: ["503"]
+    }
+  },
+  {
+    name: "Alexandra Şerbănescu",
+    img: "f8CqKse.png",
+    opts: {
+      series: ["503"]
+    }
+  },
+  {
+    name: "Rosalie de La Poype",
+    img: "4OG6hbx.png",
+    opts: {
+      series: ["503"]
+    }
+  },
+  {
+    name: "Ottilie Kittel",
+    img: "ksfFFlp.png",
+    opts: {
+      series: ["503"],
+	  loli: true
+    }
+  },
+  {
+    name: "Kawaguchi Fumiyo",
+    img: "4OG6hbx.png",
+    opts: {
+      series: ["503"]
+    }
+  },
+  //
+  
+  // 504th, or the rise of the Romans
+  
+  //
+  {
+    name: "Federica N. Doglio",
+    img: "NRSZiwR.png",
+    opts: {
+      series: ["504"]
+    }
+  },
+  {
+    name: "Takei Junko",
+    img: "aI8hsMS.png",
+    opts: {
+      series: ["504"]
+    }
+  },
+  {
+    name: "Dominica S. Gentile",
+    img: "3IaiJcS.png",
+    opts: {
+      series: ["504"]
+    }
+  },
+  {
+    name: "Jane T. Godfrey",
+    img: "P0KKkCE.png",
+    opts: {
+      series: ["504"]
+    }
+  },
+  {
+    name: "Patricia Schade",
+    img: "60fQK83.png",
+    opts: {
+      series: ["504"]
+    }
+  },
+  {
+    name: "Fernandia Malvezzi",
+    img: "1J5Ou6j.png",
+    opts: {
+      series: ["504"]
+    }
+  },
+  {
+    name: "Angela Salas Larrazabal",
+    img: "3WQ8Nbu.png",
+    opts: {
+      series: ["504"]
+    }
+  },
+  {
+    name: "Suwa Amaki",
+    img: "8QZ7y3i.png",
+    opts: {
+      series: ["504"],
+	  loli: true
+    }
+  },
+  {
+    name: "Nakajima Nishiki",
+    img: "S1WaIz3.png",
+    opts: {
+      series: ["504"]
+    }
+  },
+  {
+    name: "Luciana Mazzei",
+    img: "MIdzEWB.png",
+    opts: {
+      series: ["504"]
+    }
+  }, 
+  {
+    name: "Martina Crespi",
+    img: "KREU2i4.png",
+    opts: {
+      series: ["504"],
+	  loli: true
+    }
+  }, 
+  
+  
+  
   
   
 ];
