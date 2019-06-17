@@ -120,6 +120,7 @@ dataSet[dataSetVersion].characterData = [
   // 502nd:
   
   //
+  /*
   {
     name: "Gundula Rall",
     img: "gundulaimage",
@@ -190,6 +191,7 @@ dataSet[dataSetVersion].characterData = [
       series: ["502"]
     }
   },
+  */
   //
   
   // 503rd:
