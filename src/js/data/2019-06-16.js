@@ -36,7 +36,7 @@ dataSet[dataSetVersion].characterData = [
 	//
   {
     name: "Miyafuji Yoshika",
-    img: "yoshikaimage",
+    img: "WRgTLvV.png",
     opts: {
       series: ["501"],
 	  loli : true
@@ -44,7 +44,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Erica Hartmann",
-    img: "ericaimage",
+    img: "dfuc9sV.png",
     opts: {
       series: ["501"],
 	  loli : true
@@ -52,21 +52,21 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Lynette Bishop",
-    img: "lynneimage",
+    img: "LuJP8hq.png",
     opts: {
       series: ["501"]
     }
   },
   {
     name: "Gertrude Barkhorn",
-    img: "trudeimage",
+    img: "V4x0cde.png",
     opts: {
       series: ["501"]
     }
   },
   {
     name: "Sanya v. Litvyak",
-    img: "sanyaimage",
+    img: "1U56Fvo.png",
     opts: {
       series: ["501"],
 	  loli: true
@@ -74,7 +74,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Francesca Lucchini",
-    img: "lucchiimage",
+    img: "fLUENqS.png",
     opts: {
       series: ["501"],
 	  loli: true
@@ -82,35 +82,35 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Minna-Dietlinde Wilcke",
-    img: "minnaimage",
+    img: "7OzpGtW.png",
     opts: {
       series: ["501"]
     }
   },
   {
     name: "Sakamoto Mio",
-    img: "mioimage",
+    img: "K6KSymX.png",
     opts: {
       series: ["501"]
     }
   },
   {
     name: "Eila Ilmatar Juutilainen",
-    img: "eilaimage",
+    img: "M6KQa8a.png",
     opts: {
       series: ["501"]
     }
   },
   {
     name: "Charlotte E. Yeager",
-    img: "shirleyimage",
+    img: "qK29U7y.png",
     opts: {
       series: ["501"]
     }
   },
   {
     name: "Perrine H. Clostermann",
-    img: "perrineimage",
+    img: "Sehx2iD.png",
     opts: {
       series: ["501"]
     }
