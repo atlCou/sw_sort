@@ -12,10 +12,7 @@ dataSet[dataSetVersion].options = [
       { name: "502nd", key: "502" },
       { name: "503rd", key: "503" },
       { name: "504th", key: "504" },
-      { name: "505th", key: "505" },
       { name: "506th", key: "506" },
-      { name: "507th", key: "507" },
-      { name: "508th", key: "508" },
 	  { name: "31st Joint Fighter Squadron Afrika", key: "Afrika" },
       { name: "Others", tooltip: "WIP (Please suggest further categories!)", key: "Others" },
     ]
