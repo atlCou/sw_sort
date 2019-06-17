@@ -114,7 +114,7 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       series: ["501"]
     }
-  }
+  },
   //
   
   // 502nd:
@@ -337,7 +337,7 @@ dataSet[dataSetVersion].characterData = [
       series: ["504"],
 	  loli: true
     }
-  }, 
+  } 
   
   
   
