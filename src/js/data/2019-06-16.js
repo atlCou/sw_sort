@@ -25,6 +25,12 @@ dataSet[dataSetVersion].options = [
     key: "loli",
     tooltip: "Check this to remove the smol characters.",
 	checked: false
+  },
+  {
+    name: "Remove non-Anime",
+    key: "nanime",
+    tooltip: "Check this to remove characters without an anime appearence.",
+	checked: false
   }
 
 ];
@@ -202,42 +208,48 @@ dataSet[dataSetVersion].characterData = [
     name: "Bronislava F. Safonov",
     img: "s7nhpLJ.png",
     opts: {
-      series: ["503"]
+      series: ["503"],
+	  nanime: true
     }
   },
   {
     name: "Huberta von Bonin",
     img: "yMLqaKZ.png",
     opts: {
-      series: ["503"]
+      series: ["503"],
+	  nanime: true
     }
   },
   {
     name: "Waltraud Nowotny",
     img: "cc6p6Tu.png",
     opts: {
-      series: ["503"]
+      series: ["503"],
+	  nanime: true
     }
   },
   {
     name: "Galina D. Kostilev",
     img: "4OG6hbx.png",
     opts: {
-      series: ["503"]
+      series: ["503"],
+	  nanime: true
     }
   },
   {
     name: "Alexandra Şerbănescu",
     img: "f8CqKse.png",
     opts: {
-      series: ["503"]
+      series: ["503"],
+	  nanime: true
     }
   },
   {
     name: "Rosalie de La Poype",
     img: "4OG6hbx.png",
     opts: {
-      series: ["503"]
+      series: ["503"],
+	  nanime: true
     }
   },
   {
@@ -245,14 +257,16 @@ dataSet[dataSetVersion].characterData = [
     img: "ksfFFlp.png",
     opts: {
       series: ["503"],
-	  loli: true
+	  loli: true,
+	  nanime: true
     }
   },
   {
     name: "Kawaguchi Fumiyo",
     img: "4OG6hbx.png",
     opts: {
-      series: ["503"]
+      series: ["503"],
+	  nanime: true
     }
   },
   //
@@ -264,7 +278,8 @@ dataSet[dataSetVersion].characterData = [
     name: "Federica N. Doglio",
     img: "NRSZiwR.png",
     opts: {
-      series: ["504"]
+      series: ["504"],
+	  nanime: true
     }
   },
   {
@@ -278,21 +293,24 @@ dataSet[dataSetVersion].characterData = [
     name: "Dominica S. Gentile",
     img: "3IaiJcS.png",
     opts: {
-      series: ["504"]
+      series: ["504"],
+	  nanime: true
     }
   },
   {
     name: "Jane T. Godfrey",
     img: "P0KKkCE.png",
     opts: {
-      series: ["504"]
+      series: ["504"],
+	  nanime: true
     }
   },
   {
     name: "Patricia Schade",
     img: "60fQK83.png",
     opts: {
-      series: ["504"]
+      series: ["504"],
+	  nanime: true
     }
   },
   {
@@ -338,7 +356,83 @@ dataSet[dataSetVersion].characterData = [
       series: ["504"],
 	  loli: true
     }
-  } 
+  },
+
+  //
+  
+  // 506th because the 505th is kinda empty tbh
+  
+  //
+  {
+    name: "Rosalie de Hemricourt de Grunne",
+    img: "GB39DJZ.png",
+    opts: {
+      series: ["506"]
+    }
+  },
+  {
+    name: "Heinrike Prinzessin zu Sayn-Wittgenstein",
+    img: "NLO4HlC.png",
+    opts: {
+      series: ["506"]
+    }
+  },
+  {
+    name: "Adriana Visconti",
+    img: "6KlNxDq.png",
+    opts: {
+      series: ["506"],
+	  nanime: true
+    }
+  },
+  {
+    name: "Kuroda Kunika",
+    img: "UiYwxbv.png",
+    opts: {	
+      series: ["506"]
+    }
+  },
+  {
+    name: "Isabelle du Monceau de Bergendal",
+    img: "XvHNW1a.png",
+    opts: {
+      series: ["506"],
+	  nanime: true
+    }
+  },
+  {
+    name: "Geena Preddy",
+    img: "xx2h9yz.png",
+    opts: {
+      series: ["506"],
+	  nanime: true
+    }
+  },
+  {
+    name: "Marian Carl",
+    img: "yfkhtdD.png",
+    opts: {
+      series: ["506"],
+	  nanime: true
+    }
+  },
+  {
+    name: "Jennifer DeBlanc",
+    img: "RrjCoNt.png",
+    opts: {
+      series: ["506"],
+	  nanime: true
+    }
+  },
+  {
+    name: "Carla Luksic",
+    img: "RVNi1zZ.png",
+    opts: {
+      series: ["506"],
+	  loli: true,
+	  nanime: true
+    }
+  },
   
   
   
