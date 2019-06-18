@@ -1,5 +1,5 @@
 # World Witches Sorter
-A web based character sorter. Allows users to run through a manual merge sort of their favorite
+A web based character sorter for SW. Allows users to run through a manual merge sort of their favorite
 characters from a set.
 
 Built from [charasort](https://github.com/execfera/charasort/).

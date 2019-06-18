@@ -724,7 +724,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Laura Nissinen",
-    img: "36YzZAF.png",
+    img: "EZNFq3i.png",
     opts: {	
       series: ["Others"],
 	  nanime: true
