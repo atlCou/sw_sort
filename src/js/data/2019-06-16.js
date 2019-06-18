@@ -6,7 +6,7 @@ dataSet[dataSetVersion].options = [
     name: "Filter by Group",
     key: "series",
     tooltip: "Check this to restrict to certain units, places of appearence, etc.",
-    checked: false,
+    checked: true,
     sub: [
       { name: "501st JFW", key: "501" },
       { name: "502nd JFW", key: "502" },
@@ -18,6 +18,7 @@ dataSet[dataSetVersion].options = [
 	  { name: "Isle of Wight", tooltip: "Isle of Wight Detachment Group", key: "Wight" },
 	  { name: "OVA 2 [Africa]", tooltip: "Witches who appear in the second OVA", key: "Afrika" },
       { name: "Others", tooltip: "WIP (Please suggest further categories!)", key: "Others" },
+	  { name: "Luminous Witches", tooltip: "Idols, unchecked by default.", key: "Idol", checked: false },
     ]
   },
   {
@@ -649,10 +650,167 @@ dataSet[dataSetVersion].characterData = [
       series: ["Others"]
     }
   },
+  {
+    name: "Helma Lennartz",
+    img: "j3uldT1.png",
+    opts: {	
+      series: ["Others"],
+	  loli: true,
+	  nanime: true
+    }
+  },
+  {
+    name: "Harriet Steer",
+    img: "QFwMpCc.png",
+    opts: {	
+      series: ["Others"],
+	  nanime: true
+    }
+  },
+  {
+    name: "Nora Taylor",
+    img: "DJvC0Vq.png",
+    opts: {	
+      series: ["Others"]
+    }
+  },
+  {
+    name: "Hanna U. Rudel",
+    img: "kzb4c1P.png",
+    opts: {	
+      series: ["Others"],
+	  nanime: true
+    }
+  },
+  {
+    name: "Hanna Wind",
+    img: "GGCrkR4.png",
+    opts: {	
+      series: ["Others"],
+	  nanime: true
+    }
+  },
+  {
+    name: "Adolfine_Galland",
+    img: "A1pf1E4.png",
+    opts: {	
+      series: ["Others"],
+	  nanime: true
+    }
+  },
+  {
+    name: "Kitagou Fumika",
+    img: "QIbVGtC.png",
+    opts: {	
+      series: ["Others"],
+	  nanime: true
+    }
+  },
+  {
+    name: "Helmina Lent",
+    img: "uNFGZQR.png",
+    opts: {	
+      series: ["Others"],
+	  nanime: true
+    }
+  },
+  {
+    name: "Eini Luukkanen",
+    img: "36YzZAF.png",
+    opts: {	
+      series: ["Others"],
+	  nanime: true
+    }
+  },
+  {
+    name: "Laura Nissinen",
+    img: "36YzZAF.png",
+    opts: {	
+      series: ["Others"],
+	  nanime: true
+    }
+  },
+  {
+    name: "Wiktoria Urbanowicz",
+    img: "Onnb2D1.png",
+    opts: {	
+      series: ["Others"],
+	  nanime: true
+    }
+  },
+  {
+    name: "Wakamoto Tetsuko",
+    img: "7pLeC72.png",
+    opts: {	
+      series: ["Others"],
+	  nanime: true
+    }
+  },
+  {
+    name: "Aurora E.Juutilainen",
+    img: "fhYf6W8.png",
+    opts: {	
+      series: ["Others"],
+	  nanime: true
+    }
+  },
   
+  //
   
+  // Love Live: Panty Girl Festival
   
+  //
   
+  {
+    name: "Lyudmila Andreyevna Ruslanova",
+    img: "qeEVvgP.png",
+    opts: {	
+      series: ["Idol"]
+    }
+  },
+  {
+    name: "Virginia Robertson",
+    img: "vGjA5Vo.png",
+    opts: {	
+      series: ["Idol"]
+    }
+  },
+  {
+    name: "Shibuya Inori",
+    img: "8OLDrj4.png",
+    opts: {	
+      series: ["Idol"]
+    }
+  },
+  {
+    name: "Éléonore Giovanna Gassion",
+    img: "tKNL9bP.png",
+    opts: {	
+      series: ["Idol"]
+    }
+  },
+  {
+    name: "Aira Päivikki Linnamaa",
+    img: "P10pmKR.png",
+    opts: {	
+      series: ["Idol"]
+    }
+  },
+  {
+    name: "Maria Magdalene Dietrich",
+    img: "pjPVW87.png",
+    opts: {	
+      series: ["Idol"]
+    }
+  },
+  {
+    name: "Manaia Matawhaura Hato",
+    img: "1edaGCF.png",
+    opts: {	
+      series: ["Idol"]
+    }
+  },
+
   
   
 ];
