@@ -180,7 +180,7 @@ dataSet[dataSetVersion].characterData = [
     }
   },
   {
-    name: "Edytha Rossmann",
+    name: "Edytha Roßmann",
     img: "MRQJ1wQ.png",
     opts: {
       series: ["502"]
@@ -705,7 +705,7 @@ dataSet[dataSetVersion].characterData = [
     }
   },
   {
-    name: "Adolfine_Galland",
+    name: "Adolfine Galland",
     img: "A1pf1E4.png",
     opts: {	
       series: ["Others", "1937"],
