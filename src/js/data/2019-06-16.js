@@ -17,14 +17,15 @@ dataSet[dataSetVersion].options = [
 	  { name: "507th JFW", key: "507" },
 	  { name: "Isle of Wight", tooltip: "Isle of Wight Detachment Group", key: "Wight" },
 	  { name: "OVA 2 [Africa]", tooltip: "Witches who appear in the second OVA", key: "Afrika" },
+	  { name: "Fuso Sea Incident", key: "1937" },
       { name: "Others", tooltip: "WIP (Please suggest further categories!)", key: "Others" },
 	  { name: "Luminous Witches", tooltip: "Idols, unchecked by default.", key: "Idol", checked: false },
     ]
   },
   {
-    name: "Remove Lolis",
-    key: "loli",
-    tooltip: "Check this to remove the smol characters.",
+    name: "Remove non-Images",
+    key: "nimg",
+    tooltip: "Check this to remove witches unfortunate enough to not yet have art.",
 	checked: false
   },
   {
@@ -47,7 +48,7 @@ dataSet[dataSetVersion].characterData = [
     img: "WRgTLvV.png",
     opts: {
       series: ["501"],
-	  loli : true
+	  
     }
   },
   {
@@ -55,7 +56,7 @@ dataSet[dataSetVersion].characterData = [
     img: "dfuc9sV.png",
     opts: {
       series: ["501"],
-	  loli : true
+	  
     }
   },
   {
@@ -77,7 +78,7 @@ dataSet[dataSetVersion].characterData = [
     img: "1U56Fvo.png",
     opts: {
       series: ["501"],
-	  loli: true
+	  
     }
   },
   {
@@ -85,7 +86,7 @@ dataSet[dataSetVersion].characterData = [
     img: "fLUENqS.png",
     opts: {
       series: ["501"],
-	  loli: true
+	  
     }
   },
   {
@@ -99,7 +100,7 @@ dataSet[dataSetVersion].characterData = [
     name: "Sakamoto Mio",
     img: "K6KSymX.png",
     opts: {
-      series: ["501"]
+      series: ["501", "1937"]
     }
   },
   {
@@ -120,6 +121,13 @@ dataSet[dataSetVersion].characterData = [
     name: "Perrine H. Clostermann",
     img: "Sehx2iD.png",
     opts: {
+      series: ["501"]
+    }
+  },
+  {
+    name: "Hattori Shizuka",
+    img: "Z0nry7M.png",
+    opts: {	
       series: ["501"]
     }
   },
@@ -234,7 +242,8 @@ dataSet[dataSetVersion].characterData = [
     img: "4OG6hbx.png",
     opts: {
       series: ["503"],
-	  nanime: true
+	  nanime: true,
+	  nimg: true
     }
   },
   {
@@ -250,7 +259,8 @@ dataSet[dataSetVersion].characterData = [
     img: "4OG6hbx.png",
     opts: {
       series: ["503"],
-	  nanime: true
+	  nanime: true,
+	  nimg: true
     }
   },
   {
@@ -258,7 +268,7 @@ dataSet[dataSetVersion].characterData = [
     img: "ksfFFlp.png",
     opts: {
       series: ["503"],
-	  loli: true,
+	  
 	  nanime: true
     }
   },
@@ -267,7 +277,8 @@ dataSet[dataSetVersion].characterData = [
     img: "4OG6hbx.png",
     opts: {
       series: ["503"],
-	  nanime: true
+	  nanime: true,
+	  nimg: true
     }
   },
   //
@@ -287,7 +298,7 @@ dataSet[dataSetVersion].characterData = [
     name: "Takei Junko",
     img: "aI8hsMS.png",
     opts: {
-      series: ["504"]
+      series: ["504", "1937"]
     }
   },
   {
@@ -333,7 +344,7 @@ dataSet[dataSetVersion].characterData = [
     img: "8QZ7y3i.png",
     opts: {
       series: ["504"],
-	  loli: true
+	  
     }
   },
   {
@@ -355,7 +366,7 @@ dataSet[dataSetVersion].characterData = [
     img: "KREU2i4.png",
     opts: {
       series: ["504"],
-	  loli: true
+	  
     }
   },
   
@@ -378,7 +389,8 @@ dataSet[dataSetVersion].characterData = [
     img: "4OG6hbx.png",
     opts: {
       series: ["505"],
-	  nanime: true
+	  nanime: true,
+	  nimg: true
     }
   },
   {
@@ -394,7 +406,8 @@ dataSet[dataSetVersion].characterData = [
     img: "4OG6hbx.png",
     opts: {
       series: ["505"],
-	  nanime: true
+	  nanime: true,
+	  nimg: true
     }
   },
   {
@@ -402,7 +415,8 @@ dataSet[dataSetVersion].characterData = [
     img: "4OG6hbx.png",
     opts: {
       series: ["505"],
-	  nanime: true
+	  nanime: true,
+	  nimg: true
     }
   },
   {
@@ -417,7 +431,7 @@ dataSet[dataSetVersion].characterData = [
     name: "Kuroe Ayaka",
     img: "WOsEoxb.png",
     opts: {
-      series: ["505"],
+      series: ["505", "1937"],
 	  nanime: true
     }
   },
@@ -492,7 +506,7 @@ dataSet[dataSetVersion].characterData = [
     img: "RVNi1zZ.png",
     opts: {
       series: ["506"],
-	  loli: true,
+	  
 	  nanime: true
     }
   },
@@ -507,7 +521,7 @@ dataSet[dataSetVersion].characterData = [
     name: "Anabuki Tomoko",
     img: "VFbo7Uy.png",
     opts: {	
-      series: ["507"],
+      series: ["507", "1937"],
 	  nanime: true
     }
   },
@@ -548,7 +562,7 @@ dataSet[dataSetVersion].characterData = [
     img: "eB2iasP.png",
     opts: {	
       series: ["507"],
-	  loli: true
+	  
     }
   },
   {
@@ -556,7 +570,7 @@ dataSet[dataSetVersion].characterData = [
     img: "HR2T4j9.png",
     opts: {	
       series: ["507"],
-	  loli: true,
+	  
 	  nanime: true
     }
   },
@@ -655,7 +669,7 @@ dataSet[dataSetVersion].characterData = [
     img: "j3uldT1.png",
     opts: {	
       series: ["Others"],
-	  loli: true,
+	  
 	  nanime: true
     }
   },
@@ -694,15 +708,7 @@ dataSet[dataSetVersion].characterData = [
     name: "Adolfine_Galland",
     img: "A1pf1E4.png",
     opts: {	
-      series: ["Others"],
-	  nanime: true
-    }
-  },
-  {
-    name: "Kitagou Fumika",
-    img: "QIbVGtC.png",
-    opts: {	
-      series: ["Others"],
+      series: ["Others", "1937"],
 	  nanime: true
     }
   },
@@ -739,14 +745,6 @@ dataSet[dataSetVersion].characterData = [
     }
   },
   {
-    name: "Wakamoto Tetsuko",
-    img: "7pLeC72.png",
-    opts: {	
-      series: ["Others"],
-	  nanime: true
-    }
-  },
-  {
     name: "Aurora E.Juutilainen",
     img: "fhYf6W8.png",
     opts: {	
@@ -754,7 +752,28 @@ dataSet[dataSetVersion].characterData = [
 	  nanime: true
     }
   },
-  
+  {
+    name: "Shindou Mie",
+    img: "QieBvuq.png",
+    opts: {	
+      series: ["Others"]
+    }
+  },
+  {
+    name: "Misumi Miya",
+    img: "AUgiLib.png",
+    opts: {	
+      series: ["Others"]
+    }
+  },
+  {
+    name: "Mika Ahonen",
+    img: "Bi1CNDT.png",
+    opts: {	
+      series: ["Others"],
+	  nanime: true
+    }
+  },
   //
   
   // Love Live: Panty Girl Festival
@@ -808,6 +827,52 @@ dataSet[dataSetVersion].characterData = [
     img: "1edaGCF.png",
     opts: {	
       series: ["Idol"]
+    }
+  },
+  
+  //
+  
+  // 1937
+  
+  //
+  
+  {
+    name: "Etou Toshiko",
+    img: "NQyoxlc.png",
+    opts: {	
+      series: ["1937"],
+	  nanime: true
+    }
+  },
+  {
+    name: "Katou Keiko",
+    img: "DO7WAb5.png",
+    opts: {	
+      series: ["1937"],
+	  nanime: true
+    }
+  },
+  {
+    name: "Katou Takeko",
+    img: "JgoiOne.png",
+    opts: {	
+      series: ["1937"],
+	  nanime: true
+    }
+  },
+  {
+    name: "Kitagou Fumika",
+    img: "QIbVGtC.png",
+    opts: {	
+      series: ["1937"]
+    }
+  },
+  {
+    name: "Wakamoto Tetsuko",
+    img: "7pLeC72.png",
+    opts: {	
+      series: ["1937"],
+	  nanime: true
     }
   },
 
