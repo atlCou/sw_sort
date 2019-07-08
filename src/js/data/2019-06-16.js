@@ -774,6 +774,25 @@ dataSet[dataSetVersion].characterData = [
 	  nanime: true
     }
   },
+  {
+    name: "Elfriede Schreiber",
+    img: "qHudxut.png",
+    opts: {	
+      series: ["Others"],
+	  nanime: true
+    }
+  },
+  {
+    name: "Hanna Philine",
+    img: "h8Ppkxu.png",
+    opts: {	
+      series: ["Others"],
+	  nanime: true
+    }
+  },
+  
+  
+  
   //
   
   // Love Live: Panty Girl Festival
