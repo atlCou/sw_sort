@@ -754,6 +754,22 @@ dataSet[dataSetVersion].characterData = [
 	  nanime: true
     }
   },
+  {
+    name: "Elfriede Schreiber",
+    img: "qHudxut.png",
+    opts: {	
+      series: ["Others"],
+	  nanime: true
+    }
+  },
+  {
+    name: "Hanna Philine",
+    img: "https://i.imgur.com/h8Ppkxu.png",
+    opts: {	
+      series: ["Others"],
+	  nanime: true
+    }
+  },
   
   //
   
