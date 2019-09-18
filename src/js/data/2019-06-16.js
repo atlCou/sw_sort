@@ -20,6 +20,7 @@ dataSet[dataSetVersion].options = [
 	  { name: "Fuso Sea Incident", key: "1937" },
       { name: "Others", tooltip: "WIP (Please suggest further categories!)", key: "Others" },
 	  { name: "Luminous Witches", tooltip: "Idols, unchecked by default.", key: "Idol", checked: false },
+	  { name: "Africa Doujinshi", tooltip: "Girls from the Africa Doujinshi, unchecked by default.", key: "tonks", checked: false },
     ]
   },
   {
@@ -790,6 +791,22 @@ dataSet[dataSetVersion].characterData = [
 	  nanime: true
     }
   },
+  {
+    name: "Eugenia Horbaczewski",
+    img: "T4cwEOP.png",
+    opts: {	
+      series: ["Others"],
+	  nanime: true
+    }
+  },
+  {
+    name: "Nishizawa Yoshiko",
+    img: "ed3qpLV.png",
+    opts: {	
+      series: ["Others"],
+	  nanime: true
+    }
+  },
   
   
   
@@ -867,7 +884,7 @@ dataSet[dataSetVersion].characterData = [
     name: "Katou Keiko",
     img: "DO7WAb5.png",
     opts: {	
-      series: ["1937"],
+      series: ["1937", "tonks"],
 	  nanime: true
     }
   },
@@ -895,6 +912,63 @@ dataSet[dataSetVersion].characterData = [
     }
   },
 
+  // tonks
+  {
+    name: "Abigail",
+    img: "dLPIVZy.png",
+    opts: {	
+      series: ["tonks"],
+	  nanime: true
+    }
+  },
+  {
+    name: "Charlotte Lueder",
+    img: "rwkxkmz.png",
+    opts: {	
+      series: ["tonks"],
+	  nanime: true
+    }
+  },
+  {
+    name: "Marilyn",
+    img: "WjNG2XQ.png",
+    opts: {	
+      series: ["tonks"],
+	  nanime: true
+    }
+  },
+  {
+    name: "Patricia (Patton Girls)",
+    img: "kXjGItn.png",
+    opts: {	
+      series: ["tonks"],
+	  nanime: true
+    }
+  },
+  {
+    name: "Friederike Porsche",
+    img: "83Exn3W.png",
+    opts: {	
+      series: ["tonks"],
+	  nanime: true
+    }
+  },
+  {
+    name: "Cecilia Miles",
+    img: "IAqlBZu.png",
+    opts: {	
+      series: ["tonks"],
+	  nanime: true
+    }
+  },
+  {
+    name: "Inagaki Mami",
+    img: "25HWuJ3.png",
+    opts: {	
+      series: ["tonks"],
+	  nanime: true
+    }
+  },
   
   
 ];
