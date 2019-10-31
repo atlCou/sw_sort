@@ -15,6 +15,7 @@ dataSet[dataSetVersion].options = [
 	  { name: "505th JFW", key: "505" },
       { name: "506th JFW", key: "506" },
 	  { name: "507th JFW", key: "507" },
+	  { name: "508th JFW", key: "508" },
 	  { name: "Isle of Wight", tooltip: "Isle of Wight Detachment Group", key: "Wight" },
 	  { name: "OVA 2 [Africa]", tooltip: "Witches who appear in the second OVA", key: "Afrika" },
 	  { name: "Fuso Sea Incident", key: "1937" },
@@ -201,13 +202,7 @@ dataSet[dataSetVersion].characterData = [
       series: ["502"]
     }
   },
-  {
-    name: "Karibuchi Takami",
-    img: "yvgs61q.png",
-    opts: {
-      series: ["502"]
-    }
-  },
+  
   
   //
   
@@ -578,6 +573,33 @@ dataSet[dataSetVersion].characterData = [
   
   //
   
+  // 508
+  
+  //
+  
+  {
+    name: "Karibuchi Takami",
+    img: "yvgs61q.png",
+    opts: {
+      series: ["508"]
+    }
+  },
+  {
+    name: "Shindou Mie",
+    img: "QieBvuq.png",
+    opts: {	
+      series: ["508"]
+    }
+  },
+  {
+    name: "Cecilia Harris",
+    img: "ll5pztz.png",
+    opts: {	
+      series: ["508"]
+    }
+  },
+  //
+  
   // Isle of Wight - bestos
   
   //
@@ -753,13 +775,7 @@ dataSet[dataSetVersion].characterData = [
 	  nanime: true
     }
   },
-  {
-    name: "Shindou Mie",
-    img: "QieBvuq.png",
-    opts: {	
-      series: ["Others"]
-    }
-  },
+  
   {
     name: "Misumi Miya",
     img: "AUgiLib.png",
