@@ -823,6 +823,14 @@ dataSet[dataSetVersion].characterData = [
 	  nanime: true
     }
   },
+  {
+    name: "Chris Keera",
+    img: "rDfZioV.jpg",
+    opts: {	
+      series: ["Others"],
+	  nanime: true
+    }
+  },
   
   
   
