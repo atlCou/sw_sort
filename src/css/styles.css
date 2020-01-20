@@ -13,10 +13,15 @@ body {
   display: flex;
   flex-flow: column nowrap;
   align-items: center;
-  margin: 1em 10em;
+  margin: 1em auto;
   background-color: #ffffffdd;
 }
 
+@media all and (min-width: 800px) {
+	.container {
+	max-width: calc(200px + 75%)
+	}
+}
 
 .progress {
   margin: 1em auto;

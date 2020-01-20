@@ -17,11 +17,10 @@ dataSet[dataSetVersion].options = [
 	  { name: "507th JFW", key: "507" },
 	  { name: "508th JFW", key: "508" },
 	  { name: "Isle of Wight", tooltip: "Isle of Wight Detachment Group", key: "Wight" },
-	  { name: "OVA 2 [Africa]", tooltip: "Witches who appear in the second OVA", key: "Afrika" },
 	  { name: "Fuso Sea Incident", key: "1937" },
+	  { name: "Africa", tooltip: "Girls who are focused on Africa, including the doujinshis and OVA 2.", key: "Afrika" },
       { name: "Others", tooltip: "WIP (Please suggest further categories!)", key: "Others" },
 	  { name: "Luminous Witches", tooltip: "Idols, unchecked by default.", key: "Idol", checked: false },
-	  { name: "Africa Doujinshi", tooltip: "Girls from the Africa Doujinshi, unchecked by default.", key: "tonks", checked: false },
     ]
   },
   {
@@ -30,7 +29,7 @@ dataSet[dataSetVersion].options = [
     tooltip: "Check this to restrict to certain nations.",
     checked: false,
     sub: [
-	  { name: "Australis", key: "aus"},
+	  { name: "Australis", key: "aus" },
 	  { name: "Belgica", key: "blg"},
 	  { name: "Britannia", key: "bri" },
 	  { name: "Dacia", key: "dac"},
@@ -46,6 +45,8 @@ dataSet[dataSetVersion].options = [
 	  { name: "Orussia", key: "oru" },
 	  { name: "Ostmark", key: "ost" },
 	  { name: "Romagna", key: "rma" },
+	  { name: "Siam", key: "sia" },
+	  { name: "South Africa", key: "soa" },
 	  { name: "Suomus", key: "suo" },
     ]
   },
@@ -498,6 +499,15 @@ dataSet[dataSetVersion].characterData = [
 	  nation: ["fus"]
     }
   },
+  {
+    name: "Emma",
+    img: "8MXbdIE.jpg",
+    opts: {
+      series: ["505"],
+	  nanime: true,
+	  nation: ["ost"]
+    }
+  },
   //
   
   // 506th
@@ -735,44 +745,22 @@ dataSet[dataSetVersion].characterData = [
     }
   },
   
-  
-  //
-  
-  // OVA 2 African Witches (because the amount of witches in africa is actually kinda confusing and there's a lot of non-canon stuff i don't want to deal with)
-  
-  //
-  
-  {
-    name: "Hanna Justina Marseille",
-    img: "HRzD6gP.png",
-    opts: {	
-      series: ["Afrika"],
-	  nation: ["kar"]
-    }
-  },
-  {
-    name: "Raisa Pöttgen",
-    img: "sXRlWd7.png",
-    opts: {	
-      series: ["Afrika"],
-	  nation: ["kar"]
-    }
-  },
-  {
-    name: "Edytha Neumann",
-    img: "qoewz44.png",
-    opts: {	
-      series: ["Afrika"],
-	  nation: ["kar"]
-    }
-  },
-  
+
   //
   
   // Others
   
   //
   
+  
+  {
+    name: "Vesna Mikovic",
+    img: "g58p7Wq.jpg",
+    opts: {	
+      series: ["Others"],
+	  nation: ["ost"]
+    }
+  },  
   {
     name: "Heidemarie W. Schnaufer",
     img: "3IP2y2n.png",
@@ -810,6 +798,15 @@ dataSet[dataSetVersion].characterData = [
   {
     name: "Hanna U. Rudel",
     img: "kzb4c1P.png",
+    opts: {	
+      series: ["Others"],
+	  nanime: true,
+	  nation: ["kar"]
+    }
+  },
+  {
+    name: "Adelheid",
+    img: "WWo50R3.jpg",
     opts: {	
       series: ["Others"],
 	  nanime: true,
@@ -942,6 +939,51 @@ dataSet[dataSetVersion].characterData = [
 	  nation: ["gal"] // my pride and joy
     }
   },
+  {
+    name: "Leigh Andrea Archer",
+    img: "twotECA.jpg",
+    opts: {	
+      series: ["Others"],
+	  nanime: true,
+	  nation: ["lin"]
+    }
+  },
+  {
+    name: "Kashida Isami",
+    img: "6ZD2Uw1.jpg",
+    opts: {	
+      series: ["Others"],
+	  nanime: true,
+	  nation: ["fus"]
+    }
+  },
+  {
+    name: "Iris Montfort",
+    img: "Ocm6KO5.jpg",
+    opts: {	
+      series: ["Others"],
+	  nanime: true,
+	  nation: ["his"]
+    }
+  },
+  {
+    name: "Johanna Wiese",
+    img: "m9p2l02.jpg",
+    opts: {	
+      series: ["Others"],
+	  nanime: true,
+	  nation: ["kar"]
+    }
+  },
+  {
+    name: "Kullamas Blengkam",
+    img: "RKwXQrs.jpg",
+    opts: {	
+      series: ["Others"],
+	  nanime: true,
+	  nation: ["sia"]
+    }
+  },
   
   
   
@@ -1017,7 +1059,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Joanna Elizabeth Stafford",
-    img: "MsMgvuF.jpg",
+    img: "9TAomUL.jpg",
     opts: {	
       series: ["Idol"],
 	  nation: ["lin"]
@@ -1047,7 +1089,7 @@ dataSet[dataSetVersion].characterData = [
     name: "Katou Keiko",
     img: "DO7WAb5.png",
     opts: {	
-      series: ["1937", "tonks"],
+      series: ["1937", "Afrika"],
 	  nanime: true,
 	  nation: ["fus"]
     }
@@ -1079,12 +1121,12 @@ dataSet[dataSetVersion].characterData = [
     }
   },
 
-  // tonks
+  // africa
   {
     name: "Abigail",
     img: "dLPIVZy.png",
     opts: {	
-      series: ["tonks"],
+      series: ["Afrika"],
 	  nanime: true,
 	  nation: ["lin"]
     }
@@ -1093,7 +1135,7 @@ dataSet[dataSetVersion].characterData = [
     name: "Charlotte Lueder",
     img: "rwkxkmz.png",
     opts: {	
-      series: ["tonks"],
+      series: ["Afrika"],
 	  nanime: true,
 	  nation: ["kar"]
     }
@@ -1102,7 +1144,7 @@ dataSet[dataSetVersion].characterData = [
     name: "Marilyn",
     img: "WjNG2XQ.png",
     opts: {	
-      series: ["tonks"],
+      series: ["Afrika"],
 	  nanime: true,
 	  nation: ["lin"]
     }
@@ -1111,7 +1153,7 @@ dataSet[dataSetVersion].characterData = [
     name: "Patricia (Patton Girls)",
     img: "kXjGItn.png",
     opts: {	
-      series: ["tonks"],
+      series: ["Afrika"],
 	  nanime: true,
 	  nation: ["lin"]
     }
@@ -1120,7 +1162,7 @@ dataSet[dataSetVersion].characterData = [
     name: "Friederike Porsche",
     img: "83Exn3W.png",
     opts: {	
-      series: ["tonks"],
+      series: ["Afrika"],
 	  nanime: true,
 	  nation: ["kar"]
     }
@@ -1129,7 +1171,7 @@ dataSet[dataSetVersion].characterData = [
     name: "Cecilia Miles",
     img: "IAqlBZu.png",
     opts: {	
-      series: ["tonks"],
+      series: ["Afrika"],
 	  nanime: true,
 	  nation: ["bri"]
     }
@@ -1138,9 +1180,50 @@ dataSet[dataSetVersion].characterData = [
     name: "Inagaki Mami",
     img: "25HWuJ3.png",
     opts: {	
-      series: ["tonks"],
+      series: ["Afrika"],
 	  nanime: true,
 	  nation: ["fus"]
+    }
+  },
+  {
+    name: "Inagaki Mami",
+    img: "bbwqm84.jpg",
+    opts: {	
+      series: ["Afrika"],
+	  nanime: true,
+	  nation: ["fus"]
+    }
+  },
+  {
+    name: "Hanna Justina Marseille",
+    img: "HRzD6gP.png",
+    opts: {	
+      series: ["Afrika"],
+	  nation: ["kar"]
+    }
+  },
+  {
+    name: "Raisa Pöttgen",
+    img: "sXRlWd7.png",
+    opts: {	
+      series: ["Afrika"],
+	  nation: ["kar"]
+    }
+  },
+  {
+    name: "Edytha Neumann",
+    img: "qoewz44.png",
+    opts: {	
+      series: ["Afrika"],
+	  nation: ["kar"]
+    }
+  },
+  {
+    name: "Matilda",
+    img: "kiKj9xV.jpg",
+    opts: {	
+      series: ["Afrika"],
+	  nation: ["soa"]
     }
   },
   
