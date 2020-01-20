@@ -25,6 +25,31 @@ dataSet[dataSetVersion].options = [
     ]
   },
   {
+    name: "Filter by Nation",
+    key: "nation",
+    tooltip: "Check this to restrict to certain nations.",
+    checked: false,
+    sub: [
+	  { name: "Australis", key: "aus"},
+	  { name: "Belgica", key: "blg"},
+	  { name: "Britannia", key: "bri" },
+	  { name: "Dacia", key: "dac"},
+	  { name: "Faraway Land", key: "can"},
+	  { name: "Fuso", key: "fus" },
+	  { name: "Gallia", key: "gal" },
+	  { name: "Greece", key: "aec"},
+	  { name: "Hispania", key: "his" },
+	  { name: "Karlsland", key: "kar" },
+	  { name: "Liberion", key: "lin" },
+	  { name: "Moesia", key: "moe"},
+	  { name: "New Zeeland", key: "zee"},
+	  { name: "Orussia", key: "oru" },
+	  { name: "Ostmark", key: "ost" },
+	  { name: "Romagna", key: "rma" },
+	  { name: "Suomus", key: "suo" },
+    ]
+  },
+  {
     name: "Remove non-Images",
     key: "nimg",
     tooltip: "Check this to remove witches unfortunate enough to not yet have art.",
@@ -50,7 +75,7 @@ dataSet[dataSetVersion].characterData = [
     img: "WRgTLvV.png",
     opts: {
       series: ["501"],
-	  
+	  nation: ["fus"]
     }
   },
   {
@@ -58,6 +83,7 @@ dataSet[dataSetVersion].characterData = [
     img: "dfuc9sV.png",
     opts: {
       series: ["501"],
+	  nation: ["kar"]
 	  
     }
   },
@@ -65,14 +91,16 @@ dataSet[dataSetVersion].characterData = [
     name: "Lynette Bishop",
     img: "LuJP8hq.png",
     opts: {
-      series: ["501"]
+      series: ["501"],
+	  nation: ["bri"]
     }
   },
   {
     name: "Gertrude Barkhorn",
     img: "V4x0cde.png",
     opts: {
-      series: ["501"]
+      series: ["501"],
+	  nation: ["kar"]
     }
   },
   {
@@ -80,7 +108,7 @@ dataSet[dataSetVersion].characterData = [
     img: "1U56Fvo.png",
     opts: {
       series: ["501"],
-	  
+	  nation: ["oru"]
     }
   },
   {
@@ -88,49 +116,55 @@ dataSet[dataSetVersion].characterData = [
     img: "fLUENqS.png",
     opts: {
       series: ["501"],
-	  
+	  nation: ["rma"]
     }
   },
   {
     name: "Minna-Dietlinde Wilcke",
     img: "7OzpGtW.png",
     opts: {
-      series: ["501"]
+      series: ["501"],
+	  nation: ["kar"]
     }
   },
   {
     name: "Sakamoto Mio",
     img: "K6KSymX.png",
     opts: {
-      series: ["501", "1937"]
+      series: ["501", "1937"],
+	  nation: ["fus"]
     }
   },
   {
     name: "Eila Ilmatar Juutilainen",
     img: "M6KQa8a.png",
     opts: {
-      series: ["501"]
+      series: ["501"],
+	  nation: ["suo"]
     }
   },
   {
     name: "Charlotte E. Yeager",
     img: "qK29U7y.png",
     opts: {
-      series: ["501"]
+      series: ["501"],
+	  nation: ["lin"]
     }
   },
   {
     name: "Perrine H. Clostermann",
     img: "Sehx2iD.png",
     opts: {
-      series: ["501"]
+      series: ["501"],
+	  nation: ["gal"]
     }
   },
   {
     name: "Hattori Shizuka",
     img: "Z0nry7M.png",
     opts: {	
-      series: ["501"]
+      series: ["501"],
+	  nation: ["fus"]
     }
   },
   //
@@ -143,63 +177,72 @@ dataSet[dataSetVersion].characterData = [
     name: "Gundula Rall",
     img: "88O7498.png",
     opts: {
-      series: ["502"]
+      series: ["502"],
+	  nation: ["kar"]
     }
   },
   {
     name: "Aleksandra I. Pokryshkin",
     img: "ITZTyOR.png",
     opts: {
-      series: ["502"]
+      series: ["502"],
+	  nation: ["oru"]
     }
   },
   {
     name: "Waltrud Krupinski",
     img: "Ex8FrR5.png",
     opts: {
-      series: ["502"]
+      series: ["502"],
+	  nation: ["kar"]
     }
   },
   {
     name: "Georgette Lemare",
     img: "Ad4TOLe.png",
     opts: {
-      series: ["502"]
+      series: ["502"],
+	  nation: ["gal"]
     }
   },
   {
     name: "Kanno Naoe",
     img: "7aVB65t.png",
     opts: {
-      series: ["502"]
+      series: ["502"],
+	  nation: ["fus"]
     }
   },
   {
     name: "Shimohara Sadako",
     img: "pB61QhG.png",
     opts: {
-      series: ["502"]
+      series: ["502"],
+	  nation: ["fus"]
     }
   },
   {
     name: "Edytha Roßmann",
     img: "MRQJ1wQ.png",
     opts: {
-      series: ["502"]
+      series: ["502"],
+	  nation: ["kar"]
     }
   },
   {
     name: "Nikka Edvardine Katajainen",
     img: "i1tZU17.png",
     opts: {
-      series: ["502"]
+      series: ["502"],
+	  nation: ["suo"]
     }
   },
   {
     name: "Karibuchi Hikari",
     img: "iPubFFv.png",
     opts: {
-      series: ["502"]
+      series: ["502"],
+	  nation: ["fus"]
     }
   },
   
@@ -214,7 +257,8 @@ dataSet[dataSetVersion].characterData = [
     img: "s7nhpLJ.png",
     opts: {
       series: ["503"],
-	  nanime: true
+	  nanime: true,
+	  nation: ["oru"]
     }
   },
   {
@@ -222,7 +266,8 @@ dataSet[dataSetVersion].characterData = [
     img: "yMLqaKZ.png",
     opts: {
       series: ["503"],
-	  nanime: true
+	  nanime: true,
+	  nation: ["kar"]
     }
   },
   {
@@ -230,7 +275,8 @@ dataSet[dataSetVersion].characterData = [
     img: "cc6p6Tu.png",
     opts: {
       series: ["503"],
-	  nanime: true
+	  nanime: true,
+	  nation: ["ost"]
     }
   },
   {
@@ -239,7 +285,8 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       series: ["503"],
 	  nanime: true,
-	  nimg: true
+	  nimg: true,
+	  nation: ["oru"]
     }
   },
   {
@@ -247,7 +294,8 @@ dataSet[dataSetVersion].characterData = [
     img: "f8CqKse.png",
     opts: {
       series: ["503"],
-	  nanime: true
+	  nanime: true,
+	  nation: ["ost"]
     }
   },
   {
@@ -256,7 +304,8 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       series: ["503"],
 	  nanime: true,
-	  nimg: true
+	  nimg: true,
+	  nation: ["gal"]
     }
   },
   {
@@ -264,8 +313,8 @@ dataSet[dataSetVersion].characterData = [
     img: "ksfFFlp.png",
     opts: {
       series: ["503"],
-	  
-	  nanime: true
+	  nanime: true,
+	  nation: ["kar"]
     }
   },
   {
@@ -274,7 +323,8 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       series: ["503"],
 	  nanime: true,
-	  nimg: true
+	  nimg: true,
+	  nation: ["fus"]
     }
   },
   //
@@ -287,14 +337,16 @@ dataSet[dataSetVersion].characterData = [
     img: "NRSZiwR.png",
     opts: {
       series: ["504"],
-	  nanime: true
+	  nanime: true,
+	  nation: ["rma"]
     }
   },
   {
     name: "Takei Junko",
     img: "aI8hsMS.png",
     opts: {
-      series: ["504", "1937"]
+      series: ["504", "1937"],
+	  nation: ["fus"]
     }
   },
   {
@@ -302,7 +354,8 @@ dataSet[dataSetVersion].characterData = [
     img: "3IaiJcS.png",
     opts: {
       series: ["504"],
-	  nanime: true
+	  nanime: true,
+	  nation: ["lin"]
     }
   },
   {
@@ -310,7 +363,8 @@ dataSet[dataSetVersion].characterData = [
     img: "P0KKkCE.png",
     opts: {
       series: ["504"],
-	  nanime: true
+	  nanime: true,
+	  nation: ["lin"]
     }
   },
   {
@@ -318,21 +372,24 @@ dataSet[dataSetVersion].characterData = [
     img: "60fQK83.png",
     opts: {
       series: ["504"],
-	  nanime: true
+	  nanime: true,
+	  nation: ["bri"]
     }
   },
   {
     name: "Fernandia Malvezzi",
     img: "1J5Ou6j.png",
     opts: {
-      series: ["504"]
+      series: ["504"],
+	  nation: ["rma"]
     }
   },
   {
     name: "Angela Salas Larrazabal",
     img: "3WQ8Nbu.png",
     opts: {
-      series: ["504"]
+      series: ["504"],
+	  nation: ["his"]
     }
   },
   {
@@ -340,6 +397,7 @@ dataSet[dataSetVersion].characterData = [
     img: "8QZ7y3i.png",
     opts: {
       series: ["504"],
+	  nation: ["fus"]
 	  
     }
   },
@@ -347,14 +405,16 @@ dataSet[dataSetVersion].characterData = [
     name: "Nakajima Nishiki",
     img: "S1WaIz3.png",
     opts: {
-      series: ["504"]
+      series: ["504"],
+	  nation: ["fus"]
     }
   },
   {
     name: "Luciana Mazzei",
     img: "MIdzEWB.png",
     opts: {
-      series: ["504"]
+      series: ["504"],
+	  nation: ["rma"]
     }
   }, 
   {
@@ -362,7 +422,7 @@ dataSet[dataSetVersion].characterData = [
     img: "KREU2i4.png",
     opts: {
       series: ["504"],
-	  
+	  nation: ["rma"]
     }
   },
   
@@ -376,8 +436,9 @@ dataSet[dataSetVersion].characterData = [
     name: "Grete M. Gollob",
     img: "V02ddo1.png",
     opts: {
-      series: ["505"],
-	  nanime: true
+      series: ["505"],	
+	  nanime: true,
+	  nation: ["ost"]
     }
   },
   {
@@ -386,7 +447,8 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       series: ["505"],
 	  nanime: true,
-	  nimg: true
+	  nimg: true,
+	  nation: ["oru"]
     }
   },
   {
@@ -394,7 +456,8 @@ dataSet[dataSetVersion].characterData = [
     img: "u8rfVhX.png",
     opts: {
       series: ["505"],
-	  nanime: true
+	  nanime: true,
+	  nation: ["dac"]
     }
   },
   {
@@ -403,7 +466,8 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       series: ["505"],
 	  nanime: true,
-	  nimg: true
+	  nimg: true,
+	  nation: ["moe"]
     }
   },
   {
@@ -412,7 +476,8 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       series: ["505"],
 	  nanime: true,
-	  nimg: true
+	  nimg: true,
+	  nation: ["aec"]
     }
   },
   {
@@ -420,7 +485,8 @@ dataSet[dataSetVersion].characterData = [
     img: "mOdGNZh.png",
     opts: {
       series: ["505"],
-	  nanime: true
+	  nanime: true,
+	  nation: ["fus"]
     }
   },
   {
@@ -428,7 +494,8 @@ dataSet[dataSetVersion].characterData = [
     img: "WOsEoxb.png",
     opts: {
       series: ["505", "1937"],
-	  nanime: true
+	  nanime: true,
+	  nation: ["fus"]
     }
   },
   //
@@ -440,14 +507,16 @@ dataSet[dataSetVersion].characterData = [
     name: "Rosalie de Hemricourt de Grunne",
     img: "GB39DJZ.png",
     opts: {
-      series: ["506"]
+      series: ["506"],
+	  nation: ["blg"]
     }
   },
   {
     name: "Heinrike Prinzessin zu Sayn-Wittgenstein",
     img: "NLO4HlC.png",
     opts: {
-      series: ["506"]
+      series: ["506"],
+	  nation: ["kar"]
     }
   },
   {
@@ -455,14 +524,16 @@ dataSet[dataSetVersion].characterData = [
     img: "6KlNxDq.png",
     opts: {
       series: ["506"],
-	  nanime: true
+	  nanime: true,
+	  nation: ["rma"]
     }
   },
   {
     name: "Kuroda Kunika",
     img: "UiYwxbv.png",
     opts: {	
-      series: ["506"]
+      series: ["506"],
+	  nation: ["fus"]
     }
   },
   {
@@ -470,7 +541,8 @@ dataSet[dataSetVersion].characterData = [
     img: "XvHNW1a.png",
     opts: {
       series: ["506"],
-	  nanime: true
+	  nanime: true,
+	  nation: ["blg"]
     }
   },
   {
@@ -478,7 +550,8 @@ dataSet[dataSetVersion].characterData = [
     img: "xx2h9yz.png",
     opts: {
       series: ["506"],
-	  nanime: true
+	  nanime: true,
+	  nation: ["lin"]
     }
   },
   {
@@ -486,7 +559,8 @@ dataSet[dataSetVersion].characterData = [
     img: "yfkhtdD.png",
     opts: {
       series: ["506"],
-	  nanime: true
+	  nanime: true,
+	  nation: ["lin"]
     }
   },
   {
@@ -494,7 +568,8 @@ dataSet[dataSetVersion].characterData = [
     img: "RrjCoNt.png",
     opts: {
       series: ["506"],
-	  nanime: true
+	  nanime: true,
+	  nation: ["lin"]
     }
   },
   {
@@ -502,8 +577,8 @@ dataSet[dataSetVersion].characterData = [
     img: "RVNi1zZ.png",
     opts: {
       series: ["506"],
-	  
-	  nanime: true
+	  nanime: true,
+	  nation: ["lin"]
     }
   },
   
@@ -518,7 +593,8 @@ dataSet[dataSetVersion].characterData = [
     img: "VFbo7Uy.png",
     opts: {	
       series: ["507", "1937"],
-	  nanime: true
+	  nanime: true,
+	  nation: ["fus"]
     }
   },
   {
@@ -526,7 +602,8 @@ dataSet[dataSetVersion].characterData = [
     img: "kLfRAXd.png",
     opts: {	
       series: ["507"],
-	  nanime: true
+	  nanime: true,
+	  nation: ["can"]
     }
   },
   {
@@ -534,7 +611,8 @@ dataSet[dataSetVersion].characterData = [
     img: "LCZz35B.png",
     opts: {	
       series: ["507"],
-	  nanime: true
+	  nanime: true,
+	  nation: ["suo"]
     }
   },
   {
@@ -542,7 +620,8 @@ dataSet[dataSetVersion].characterData = [
     img: "lyaqpYL.png",
     opts: {	
       series: ["507"],
-	  nanime: true
+	  nanime: true,
+	  nation: ["rma"]
     }
   },
   {
@@ -550,7 +629,8 @@ dataSet[dataSetVersion].characterData = [
     img: "KwLrIke.png",
     opts: {	
       series: ["507"],
-	  nanime: true
+	  nanime: true,
+	  nation: ["lin"]
     }
   },
   {
@@ -558,6 +638,7 @@ dataSet[dataSetVersion].characterData = [
     img: "eB2iasP.png",
     opts: {	
       series: ["507"],
+	  nation: ["kar"]
 	  
     }
   },
@@ -567,7 +648,8 @@ dataSet[dataSetVersion].characterData = [
     opts: {	
       series: ["507"],
 	  
-	  nanime: true
+	  nanime: true,
+	  nation: ["fus"]
     }
   },
   
@@ -581,21 +663,24 @@ dataSet[dataSetVersion].characterData = [
     name: "Karibuchi Takami",
     img: "yvgs61q.png",
     opts: {
-      series: ["508"]
+      series: ["508"],
+	  nation: ["fus"]
     }
   },
   {
     name: "Shindou Mie",
     img: "QieBvuq.png",
     opts: {	
-      series: ["508"]
+      series: ["508"],
+	  nation: ["fus"]
     }
   },
   {
     name: "Cecilia Harris",
     img: "ll5pztz.png",
     opts: {	
-      series: ["508"]
+      series: ["508"],
+	  nation: ["lin"]
     }
   },
   //
@@ -609,7 +694,8 @@ dataSet[dataSetVersion].characterData = [
     img: "LZGH38Q.png",
     opts: {	
       series: ["Wight"],
-	  nanime: true
+	  nanime: true,
+	  nation: ["fus"]
     }
   },
   {
@@ -617,7 +703,8 @@ dataSet[dataSetVersion].characterData = [
     img: "u6Z75A4.png",
     opts: {	
       series: ["Wight"],
-	  nanime: true
+	  nanime: true,
+	  nation: ["bri"]
     }
   },
   {
@@ -625,7 +712,8 @@ dataSet[dataSetVersion].characterData = [
     img: "SuzV6ae.png",
     opts: {	
       series: ["Wight"],
-	  nanime: true
+	  nanime: true,
+	  nation: ["gal"]
     }
   },
   {
@@ -633,7 +721,8 @@ dataSet[dataSetVersion].characterData = [
     img: "UFecOx9.png",
     opts: {	
       series: ["Wight"],
-	  nanime: true
+	  nanime: true,
+	  nation: ["lin"]
     }
   },
   {
@@ -641,7 +730,8 @@ dataSet[dataSetVersion].characterData = [
     img: "qvGkIeh.png",
     opts: {	
       series: ["Wight"],
-	  nanime: true
+	  nanime: true,
+	  nation: ["ost"]
     }
   },
   
@@ -656,21 +746,24 @@ dataSet[dataSetVersion].characterData = [
     name: "Hanna Justina Marseille",
     img: "HRzD6gP.png",
     opts: {	
-      series: ["Afrika"]
+      series: ["Afrika"],
+	  nation: ["kar"]
     }
   },
   {
     name: "Raisa Pöttgen",
     img: "sXRlWd7.png",
     opts: {	
-      series: ["Afrika"]
+      series: ["Afrika"],
+	  nation: ["kar"]
     }
   },
   {
     name: "Edytha Neumann",
     img: "qoewz44.png",
     opts: {	
-      series: ["Afrika"]
+      series: ["Afrika"],
+	  nation: ["kar"]
     }
   },
   
@@ -684,7 +777,8 @@ dataSet[dataSetVersion].characterData = [
     name: "Heidemarie W. Schnaufer",
     img: "3IP2y2n.png",
     opts: {	
-      series: ["Others"]
+      series: ["Others"],
+	  nation: ["kar"]
     }
   },
   {
@@ -692,8 +786,8 @@ dataSet[dataSetVersion].characterData = [
     img: "j3uldT1.png",
     opts: {	
       series: ["Others"],
-	  
-	  nanime: true
+	  nanime: true,
+	  nation: ["kar"]
     }
   },
   {
@@ -701,14 +795,16 @@ dataSet[dataSetVersion].characterData = [
     img: "QFwMpCc.png",
     opts: {	
       series: ["Others"],
-	  nanime: true
+	  nanime: true,
+	  nation: ["bri"]
     }
   },
   {
     name: "Nora Taylor",
     img: "DJvC0Vq.png",
     opts: {	
-      series: ["Others"]
+      series: ["Others"],
+	  nation: ["aus"]
     }
   },
   {
@@ -716,7 +812,8 @@ dataSet[dataSetVersion].characterData = [
     img: "kzb4c1P.png",
     opts: {	
       series: ["Others"],
-	  nanime: true
+	  nanime: true,
+	  nation: ["kar"]
     }
   },
   {
@@ -724,7 +821,8 @@ dataSet[dataSetVersion].characterData = [
     img: "GGCrkR4.png",
     opts: {	
       series: ["Others"],
-	  nanime: true
+	  nanime: true,
+	  nation: ["suo"]
     }
   },
   {
@@ -732,7 +830,8 @@ dataSet[dataSetVersion].characterData = [
     img: "A1pf1E4.png",
     opts: {	
       series: ["Others", "1937"],
-	  nanime: true
+	  nanime: true,
+	  nation: ["kar"]
     }
   },
   {
@@ -740,7 +839,8 @@ dataSet[dataSetVersion].characterData = [
     img: "uNFGZQR.png",
     opts: {	
       series: ["Others"],
-	  nanime: true
+	  nanime: true,
+	  nation: ["kar"]
     }
   },
   {
@@ -748,7 +848,8 @@ dataSet[dataSetVersion].characterData = [
     img: "36YzZAF.png",
     opts: {	
       series: ["Others"],
-	  nanime: true
+	  nanime: true,
+	  nation: ["suo"]
     }
   },
   {
@@ -756,7 +857,8 @@ dataSet[dataSetVersion].characterData = [
     img: "EZNFq3i.png",
     opts: {	
       series: ["Others"],
-	  nanime: true
+	  nanime: true,
+	  nation: ["suo"]
     }
   },
   {
@@ -764,7 +866,8 @@ dataSet[dataSetVersion].characterData = [
     img: "Onnb2D1.png",
     opts: {	
       series: ["Others"],
-	  nanime: true
+	  nanime: true,
+	  nation: ["ost"]
     }
   },
   {
@@ -772,7 +875,8 @@ dataSet[dataSetVersion].characterData = [
     img: "fhYf6W8.png",
     opts: {	
       series: ["Others"],
-	  nanime: true
+	  nanime: true,
+	  nation: ["suo"]
     }
   },
   
@@ -780,7 +884,8 @@ dataSet[dataSetVersion].characterData = [
     name: "Misumi Miya",
     img: "AUgiLib.png",
     opts: {	
-      series: ["Others"]
+      series: ["Others"],
+	  nation: ["fus"]
     }
   },
   {
@@ -788,7 +893,8 @@ dataSet[dataSetVersion].characterData = [
     img: "Bi1CNDT.png",
     opts: {	
       series: ["Others"],
-	  nanime: true
+	  nanime: true,
+	  nation: ["suo"]
     }
   },
   {
@@ -796,7 +902,8 @@ dataSet[dataSetVersion].characterData = [
     img: "qHudxut.png",
     opts: {	
       series: ["Others"],
-	  nanime: true
+	  nanime: true,
+	  nation: ["kar"]
     }
   },
   {
@@ -804,7 +911,8 @@ dataSet[dataSetVersion].characterData = [
     img: "h8Ppkxu.png",
     opts: {	
       series: ["Others"],
-	  nanime: true
+	  nanime: true,
+	  nation: ["kar"]
     }
   },
   {
@@ -812,7 +920,8 @@ dataSet[dataSetVersion].characterData = [
     img: "T4cwEOP.png",
     opts: {	
       series: ["Others"],
-	  nanime: true
+	  nanime: true,
+	  nation: ["ost"]
     }
   },
   {
@@ -820,7 +929,8 @@ dataSet[dataSetVersion].characterData = [
     img: "ed3qpLV.png",
     opts: {	
       series: ["Others"],
-	  nanime: true
+	  nanime: true,
+	  nation: ["fus"]
     }
   },
   {
@@ -828,7 +938,8 @@ dataSet[dataSetVersion].characterData = [
     img: "rDfZioV.jpg",
     opts: {	
       series: ["Others"],
-	  nanime: true
+	  nanime: true,
+	  nation: ["gal"] // my pride and joy
     }
   },
   
@@ -844,51 +955,78 @@ dataSet[dataSetVersion].characterData = [
     name: "Lyudmila Andreyevna Ruslanova",
     img: "qeEVvgP.png",
     opts: {	
-      series: ["Idol"]
+      series: ["Idol"],
+	  nation: ["oru"]
     }
   },
   {
     name: "Virginia Robertson",
     img: "vGjA5Vo.png",
     opts: {	
-      series: ["Idol"]
+      series: ["Idol"],
+	  nation: ["bri"]
     }
   },
   {
     name: "Shibuya Inori",
     img: "8OLDrj4.png",
     opts: {	
-      series: ["Idol"]
+      series: ["Idol"],
+	  nation: ["fus"]
     }
   },
   {
     name: "Éléonore Giovanna Gassion",
     img: "tKNL9bP.png",
     opts: {	
-      series: ["Idol"]
+      series: ["Idol"],
+	  nation: ["gal"]
     }
   },
   {
     name: "Aira Päivikki Linnamaa",
     img: "P10pmKR.png",
     opts: {	
-      series: ["Idol"]
+      series: ["Idol"],
+	  nation: ["suo"]
     }
   },
   {
     name: "Maria Magdalene Dietrich",
     img: "pjPVW87.png",
     opts: {	
-      series: ["Idol"]
+      series: ["Idol"],
+	  nation: ["kar"]
     }
   },
   {
     name: "Manaia Matawhaura Hato",
     img: "1edaGCF.png",
     opts: {	
-      series: ["Idol"]
+      series: ["Idol"],
+	  nation: ["zee"]
     }
   },
+  {
+    name: "Sylvie Cariello",
+    img: "WnXVhTx.jpg",
+    opts: {	
+      series: ["Idol"],
+	  nation: ["rma"]
+    }
+  },
+  {
+    name: "Joanna Elizabeth Stafford",
+    img: "MsMgvuF.jpg",
+    opts: {	
+      series: ["Idol"],
+	  nation: ["lin"]
+    }
+  },
+  
+  
+  
+
   
   //
   
@@ -901,7 +1039,8 @@ dataSet[dataSetVersion].characterData = [
     img: "NQyoxlc.png",
     opts: {	
       series: ["1937"],
-	  nanime: true
+	  nanime: true,
+	  nation: ["fus"]
     }
   },
   {
@@ -909,7 +1048,8 @@ dataSet[dataSetVersion].characterData = [
     img: "DO7WAb5.png",
     opts: {	
       series: ["1937", "tonks"],
-	  nanime: true
+	  nanime: true,
+	  nation: ["fus"]
     }
   },
   {
@@ -917,14 +1057,16 @@ dataSet[dataSetVersion].characterData = [
     img: "JgoiOne.png",
     opts: {	
       series: ["1937"],
-	  nanime: true
+	  nanime: true,
+	  nation: ["fus"]
     }
   },
   {
     name: "Kitagou Fumika",
     img: "QIbVGtC.png",
     opts: {	
-      series: ["1937"]
+      series: ["1937"],
+	  nation: ["fus"]
     }
   },
   {
@@ -932,7 +1074,8 @@ dataSet[dataSetVersion].characterData = [
     img: "7pLeC72.png",
     opts: {	
       series: ["1937"],
-	  nanime: true
+	  nanime: true,
+	  nation: ["fus"]
     }
   },
 
@@ -942,7 +1085,8 @@ dataSet[dataSetVersion].characterData = [
     img: "dLPIVZy.png",
     opts: {	
       series: ["tonks"],
-	  nanime: true
+	  nanime: true,
+	  nation: ["lin"]
     }
   },
   {
@@ -950,7 +1094,8 @@ dataSet[dataSetVersion].characterData = [
     img: "rwkxkmz.png",
     opts: {	
       series: ["tonks"],
-	  nanime: true
+	  nanime: true,
+	  nation: ["kar"]
     }
   },
   {
@@ -958,7 +1103,8 @@ dataSet[dataSetVersion].characterData = [
     img: "WjNG2XQ.png",
     opts: {	
       series: ["tonks"],
-	  nanime: true
+	  nanime: true,
+	  nation: ["lin"]
     }
   },
   {
@@ -966,7 +1112,8 @@ dataSet[dataSetVersion].characterData = [
     img: "kXjGItn.png",
     opts: {	
       series: ["tonks"],
-	  nanime: true
+	  nanime: true,
+	  nation: ["lin"]
     }
   },
   {
@@ -974,7 +1121,8 @@ dataSet[dataSetVersion].characterData = [
     img: "83Exn3W.png",
     opts: {	
       series: ["tonks"],
-	  nanime: true
+	  nanime: true,
+	  nation: ["kar"]
     }
   },
   {
@@ -982,7 +1130,8 @@ dataSet[dataSetVersion].characterData = [
     img: "IAqlBZu.png",
     opts: {	
       series: ["tonks"],
-	  nanime: true
+	  nanime: true,
+	  nation: ["bri"]
     }
   },
   {
@@ -990,7 +1139,8 @@ dataSet[dataSetVersion].characterData = [
     img: "25HWuJ3.png",
     opts: {	
       series: ["tonks"],
-	  nanime: true
+	  nanime: true,
+	  nation: ["fus"]
     }
   },
   
