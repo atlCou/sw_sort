@@ -758,9 +758,19 @@ dataSet[dataSetVersion].characterData = [
     img: "g58p7Wq.jpg",
     opts: {	
       series: ["Others"],
-	  nation: ["ost"]
+	  nation: ["ost"],
+	  nanime: true
     }
   },  
+  {
+    name: "Enrica Tarantola",
+    img: "kNpF94T.jpg",
+    opts: {	
+      series: ["Others"],
+	  nation: ["rma"],
+	  nanime: true
+    }
+  }, 
   {
     name: "Heidemarie W. Schnaufer",
     img: "3IP2y2n.png",
@@ -1186,7 +1196,7 @@ dataSet[dataSetVersion].characterData = [
     }
   },
   {
-    name: "Inagaki Mami",
+    name: "Kitano Furuko",
     img: "bbwqm84.jpg",
     opts: {	
       series: ["Afrika"],
@@ -1223,7 +1233,8 @@ dataSet[dataSetVersion].characterData = [
     img: "kiKj9xV.jpg",
     opts: {	
       series: ["Afrika"],
-	  nation: ["soa"]
+	  nation: ["soa"],
+	  nanime: true
     }
   },
   
