@@ -97,7 +97,7 @@ dataSet[dataSetVersion].characterData = [
     }
   },
   {
-    name: "Gertrude Barkhorn",
+    name: "Gertrud Barkhorn",
     img: "V4x0cde.png",
     opts: {
       series: ["501"],
