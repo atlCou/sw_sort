@@ -132,6 +132,8 @@ function init() {
 
   /** Decode query string if available. */
   if (window.location.search.slice(1) !== '') decodeQuery();
+  
+  document.getElementById("changelogDiv").style.display = "none";
 }
 
 /** Begin sorting. */
@@ -647,36 +649,67 @@ function setLatestDataset() {
 
 /** Populate option list. */
 function populateOptions() {
+  
   const optList = document.querySelector('.options');
   const optInsert = (name, id, tooltip, checked = true, disabled = false) => {
     return `<div><label title="${tooltip?tooltip:name}"><input id="cb-${id}" type="checkbox" ${checked?'checked':''} ${disabled?'disabled':''}> ${name}</label></div>`;
   };
+
   const optInsertLarge = (name, id, tooltip, checked = true) => {
     return `<div class="large option"><label title="${tooltip?tooltip:name}"><input id="cbgroup-${id}" type="checkbox" ${checked?'checked':''}> ${name}</label></div>`;
+  };
+  const optInsertUncheck = (name, id, tooltip, checked = true) => {
+    return `<div class="uncheck option"><label title="${tooltip?tooltip:name}"><input id="cbgroup-${id}" type="checkbox" ${checked?'checked':''}> ${name}</label></div>`;
   };
 
   /** Clear out any previous options. */
   optList.innerHTML = '';
 
+  /** Silly DOM group for misc. options */
+  var divextra = document.createElement('div');
+  divextra.className = "extrabox";
+  var divmain = document.createElement('div');
+  divmain.className = "mainbox";
+  optList.appendChild(divmain);
+  
   /** Insert sorter options and set grouped option behavior. */
   options.forEach(opt => {
-    if ('sub' in opt) {
-      optList.insertAdjacentHTML('beforeend', optInsertLarge(opt.name, opt.key, opt.tooltip, opt.checked));
+    if ('sub' in opt) {  
+	  var div = document.createElement('div');
+	  div.className = "options_style";
+	  divmain.appendChild(div);
+	  optList.appendChild(divmain);
+      div.insertAdjacentHTML('beforeend', optInsertLarge(opt.name, opt.key, opt.tooltip, opt.checked));
+	  div.insertAdjacentHTML('beforeend', optInsertUncheck(opt.uncheckname, opt.uncheckkey, opt.unchecktooltip, opt.uncheckstate));
       opt.sub.forEach((subopt, subindex) => {
-        optList.insertAdjacentHTML('beforeend', optInsert(subopt.name, `${opt.key}-${subindex}`, subopt.tooltip, subopt.checked, opt.checked === false));
+        div.insertAdjacentHTML('beforeend', optInsert(subopt.name, `${opt.key}-${subindex}`, subopt.tooltip, subopt.checked, opt.checked === false));
       });
-      optList.insertAdjacentHTML('beforeend', '<hr>');
 
       const groupbox = document.getElementById(`cbgroup-${opt.key}`);
+	  
+	  const groupuncheck = document.getElementById(`cbgroup-${opt.uncheckkey}`);
+
 
       groupbox.parentElement.addEventListener('click', () => {
         opt.sub.forEach((subopt, subindex) => {
           document.getElementById(`cb-${opt.key}-${subindex}`).disabled = !groupbox.checked;
           if (groupbox.checked) { document.getElementById(`cb-${opt.key}-${subindex}`).checked = true; }
+		  //console.log(document.getElementById(`cb-${opt.key}-${subindex}`));
         });
       });
-    } else {
-      optList.insertAdjacentHTML('beforeend', optInsert(opt.name, opt.key, opt.tooltip, opt.checked));
+	  groupuncheck.parentElement.addEventListener('click', () => {
+        opt.sub.forEach((subopt, subindex) => {
+			if (groupuncheck.checked) { document.getElementById(`cb-${opt.key}-${subindex}`).checked = true; }
+			else { document.getElementById(`cb-${opt.key}-${subindex}`).checked = false; }
+        });
+      });
+    } 
+	
+	
+	
+	else {
+	  optList.appendChild(divextra);
+      divextra.insertAdjacentHTML('beforeend', optInsert(opt.name, opt.key, opt.tooltip, opt.checked));
     }
   });
 }
@@ -842,6 +875,19 @@ function reduceTextWidth(text, font, width) {
       reducedText = reducedText.slice(0, -1);
     }
     return reducedText + '..';
+  }
+}
+
+
+// Silly thing to hide the changelog
+
+
+function changelogHide() {
+  var x = document.getElementById("changelogDiv");
+  if (x.style.display === "none") {
+    x.style.display = "block";
+  } else {
+    x.style.display = "none";
   }
 }
 

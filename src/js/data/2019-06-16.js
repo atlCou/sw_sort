@@ -19,9 +19,15 @@ dataSet[dataSetVersion].options = [
 	  { name: "Isle of Wight", tooltip: "Isle of Wight Detachment Group", key: "Wight" },
 	  { name: "Fuso Sea Incident", key: "1937" },
 	  { name: "Africa", tooltip: "Girls who are focused on Africa, including the doujinshis and OVA 2.", key: "Afrika" },
+	  { name: "LLv24", tooltip: "Girls who were part of LLV24 (Suomus Air Force), the focus of Aurora no Majo.", key: "24" },
+	  { name: "Contrail of Witches", key: "Contrail" },
       { name: "Others", tooltip: "WIP (Please suggest further categories!)", key: "Others" },
 	  { name: "Luminous Witches", tooltip: "Idols, unchecked by default.", key: "Idol", checked: false },
-    ]
+    ],
+	uncheckname: "Uncheck",
+	unchecktooltip: "Toggles all options as selected or unselected.",
+	uncheckstate: true,
+	uncheckkey: "series_unchecked"
   },
   {
     name: "Filter by Nation",
@@ -48,7 +54,11 @@ dataSet[dataSetVersion].options = [
 	  { name: "Siam", key: "sia" },
 	  { name: "South Africa", key: "soa" },
 	  { name: "Suomus", key: "suo" },
-    ]
+    ],
+	uncheckname: "Uncheck",
+	unchecktooltip: "Toggles all options as selected or unselected.",
+	uncheckstate: true,
+	uncheckkey: "nation_unchecked"
   },
   {
     name: "Remove non-Images",
@@ -140,7 +150,7 @@ dataSet[dataSetVersion].characterData = [
     name: "Eila Ilmatar Juutilainen",
     img: "M6KQa8a.png",
     opts: {
-      series: ["501"],
+      series: ["501", "24"],
 	  nation: ["suo"]
     }
   },
@@ -234,7 +244,7 @@ dataSet[dataSetVersion].characterData = [
     name: "Nikka Edvardine Katajainen",
     img: "i1tZU17.png",
     opts: {
-      series: ["502"],
+      series: ["502", "24"],
 	  nation: ["suo"]
     }
   },
@@ -266,7 +276,7 @@ dataSet[dataSetVersion].characterData = [
     name: "Huberta von Bonin",
     img: "yMLqaKZ.png",
     opts: {
-      series: ["503"],
+      series: ["503", "Contrail"],
 	  nanime: true,
 	  nation: ["kar"]
     }
@@ -437,7 +447,7 @@ dataSet[dataSetVersion].characterData = [
     name: "Grete M. Gollob",
     img: "V02ddo1.png",
     opts: {
-      series: ["505"],	
+      series: ["505", "Contrail"],	
 	  nanime: true,
 	  nation: ["ost"]
     }
@@ -456,7 +466,7 @@ dataSet[dataSetVersion].characterData = [
     name: "Constantia Cantacuzino",
     img: "u8rfVhX.png",
     opts: {
-      series: ["505"],
+      series: ["505", "Contrail"],
 	  nanime: true,
 	  nation: ["dac"]
     }
@@ -485,7 +495,7 @@ dataSet[dataSetVersion].characterData = [
     name: "Inufusa Yuno",
     img: "mOdGNZh.png",
     opts: {
-      series: ["505"],
+      series: ["505", "Contrail"],
 	  nanime: true,
 	  nation: ["fus"]
     }
@@ -501,9 +511,9 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Emma",
-    img: "8MXbdIE.jpg",
+    img: "9ZjMco3.png",
     opts: {
-      series: ["505"],
+      series: ["Contrail"],
 	  nanime: true,
 	  nation: ["ost"]
     }
@@ -525,7 +535,7 @@ dataSet[dataSetVersion].characterData = [
     name: "Heinrike Prinzessin zu Sayn-Wittgenstein",
     img: "NLO4HlC.png",
     opts: {
-      series: ["506"],
+      series: ["506", "Contrail"],
 	  nation: ["kar"]
     }
   },
@@ -775,7 +785,7 @@ dataSet[dataSetVersion].characterData = [
     name: "Heidemarie W. Schnaufer",
     img: "3IP2y2n.png",
     opts: {	
-      series: ["Others"],
+      series: ["Contrail"],
 	  nation: ["kar"]
     }
   },
@@ -783,7 +793,7 @@ dataSet[dataSetVersion].characterData = [
     name: "Helma Lennartz",
     img: "j3uldT1.png",
     opts: {	
-      series: ["Others"],
+      series: ["Contrail"],
 	  nanime: true,
 	  nation: ["kar"]
     }
@@ -809,7 +819,7 @@ dataSet[dataSetVersion].characterData = [
     name: "Hanna U. Rudel",
     img: "kzb4c1P.png",
     opts: {	
-      series: ["Others"],
+      series: ["Contrail"],
 	  nanime: true,
 	  nation: ["kar"]
     }
@@ -818,7 +828,7 @@ dataSet[dataSetVersion].characterData = [
     name: "Adelheid",
     img: "WWo50R3.jpg",
     opts: {	
-      series: ["Others"],
+      series: ["Contrail"],
 	  nanime: true,
 	  nation: ["kar"]
     }
@@ -827,7 +837,7 @@ dataSet[dataSetVersion].characterData = [
     name: "Hanna Wind",
     img: "GGCrkR4.png",
     opts: {	
-      series: ["Others"],
+      series: ["24"],
 	  nanime: true,
 	  nation: ["suo"]
     }
@@ -836,7 +846,7 @@ dataSet[dataSetVersion].characterData = [
     name: "Adolfine Galland",
     img: "A1pf1E4.png",
     opts: {	
-      series: ["Others", "1937"],
+      series: ["Contrail", "1937"],
 	  nanime: true,
 	  nation: ["kar"]
     }
@@ -845,7 +855,7 @@ dataSet[dataSetVersion].characterData = [
     name: "Helmina Lent",
     img: "uNFGZQR.png",
     opts: {	
-      series: ["Others"],
+      series: ["Contrail"],
 	  nanime: true,
 	  nation: ["kar"]
     }
@@ -854,7 +864,7 @@ dataSet[dataSetVersion].characterData = [
     name: "Eini Luukkanen",
     img: "36YzZAF.png",
     opts: {	
-      series: ["Others"],
+      series: ["24"],
 	  nanime: true,
 	  nation: ["suo"]
     }
@@ -863,7 +873,7 @@ dataSet[dataSetVersion].characterData = [
     name: "Laura Nissinen",
     img: "EZNFq3i.png",
     opts: {	
-      series: ["Others"],
+      series: ["24"],
 	  nanime: true,
 	  nation: ["suo"]
     }
@@ -881,7 +891,7 @@ dataSet[dataSetVersion].characterData = [
     name: "Aurora E.Juutilainen",
     img: "fhYf6W8.png",
     opts: {	
-      series: ["Others"],
+      series: ["24"],
 	  nanime: true,
 	  nation: ["suo"]
     }
@@ -908,7 +918,7 @@ dataSet[dataSetVersion].characterData = [
     name: "Elfriede Schreiber",
     img: "qHudxut.png",
     opts: {	
-      series: ["Others"],
+      series: ["Contrail"],
 	  nanime: true,
 	  nation: ["kar"]
     }
@@ -935,7 +945,7 @@ dataSet[dataSetVersion].characterData = [
     name: "Nishizawa Yoshiko",
     img: "ed3qpLV.png",
     opts: {	
-      series: ["Others"],
+      series: ["Contrail"],
 	  nanime: true,
 	  nation: ["fus"]
     }
@@ -980,7 +990,7 @@ dataSet[dataSetVersion].characterData = [
     name: "Johanna Wiese",
     img: "m9p2l02.jpg",
     opts: {	
-      series: ["Others"],
+      series: ["Contrail"],
 	  nanime: true,
 	  nation: ["kar"]
     }
@@ -994,7 +1004,33 @@ dataSet[dataSetVersion].characterData = [
 	  nation: ["sia"]
     }
   },
-  
+  {
+    name: "Nadia Popova",
+    img: "rLqXSk7.png",
+    opts: {	
+      series: ["Contrail"],
+	  nanime: true,
+	  nation: ["oru"]
+    }
+  },
+  {
+    name: "Ernesta Niermann",
+    img: "0pyzYL4.png",
+    opts: {	
+      series: ["Contrail"],
+	  nanime: true,
+	  nation: ["kar"]
+    }
+  },
+  {
+    name: "Fuso Princess",
+    img: "l0ekzbc.png",
+    opts: {	
+      series: ["1937"],
+	  nanime: true,
+	  nation: ["fus"]
+    }
+  },
   
   
   //
