@@ -292,7 +292,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Galina D. Kostilev",
-    img: "4OG6hbx.png",
+    img: "uIsBRxu.png",
     opts: {
       series: ["503"],
 	  nanime: true,
@@ -311,7 +311,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Rosalie de La Poype",
-    img: "4OG6hbx.png",
+    img: "x2HFiuk.png",
     opts: {
       series: ["503"],
 	  nanime: true,
@@ -330,7 +330,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Kawaguchi Fumiyo",
-    img: "4OG6hbx.png",
+    img: "kcTmcX9.png",
     opts: {
       series: ["503"],
 	  nanime: true,
